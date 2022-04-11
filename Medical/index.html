@@ -1,0 +1,66 @@
+        <!DOCTYPE html>
+        <html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Akkauntini yaratish</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+<section class="forms-section">
+    <h1 class="section-title">Medicaldan ro'yxatdan o'tish</h1>
+    <div class="forms">
+        <div class="form-wrapper is-active">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" type="button" class="switcher switcher-login">
+                Tizimga kirish
+                <span class="underline"></span>
+            </button>
+            <form action="index1.html" class="form form-login">
+                <fieldset>
+                    <legend>Iltimos, kirish uchun elektron pochta va parolingizni kiriting.</legend>
+                    <div class="input-block">
+                        <label for="login-email">E-mail</label>
+                        <input id="login-email" type="email" required>
+                    </div>
+                    <div class="input-block">
+                        <label for="login-password">Parol</label>
+                        <input id="login-password" type="password" required>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn-login">Tizimga kirish</button>
+            </form>
+        </div>
+        <div class="form-wrapper">
+            <button type="button" class="switcher switcher-signup">
+                Ro'yxatdan o'tish
+                <span class="underline"></span>
+            </button>
+            <form action="index1.html" class="form form-signup">
+                <fieldset>
+                    <legend>Ro'yxatdan o'tish uchun elektron pochta, parol va parolni tasdiqlang.</legend>
+                    <div class="input-block">
+                        <label for="signup-email">E-mail</label>
+                        <input id="signup-email" type="email" required>
+                    </div>
+                    <div class="input-block">
+                        <label for="signup-password">Parol</label>
+                        <input id="signup-password" type="password" required>
+                    </div>
+                    <div class="input-block">
+                        <label for="signup-password-confirm">Parolmi tasdiqlang</label>
+                        <input id="signup-password-confirm" type="password" required>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn-signup">Davom etmoq</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
